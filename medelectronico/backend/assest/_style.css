@@ -1,0 +1,119 @@
+h1,h2{
+    text-align: center;
+}
+
+#areaForPaint {
+    border: 5px solid darkblue;
+    height: 275px;
+    background-color: darkgray  ;
+    width: 350px;
+    position: relative;
+    left: 50%;
+    margin: 26px -180px;
+}
+
+#paint{
+    margin-top: -218px;
+}
+#tmp_canvas {
+    position: absolute;
+    left: 0px;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    cursor: crosshair;
+}
+
+#text_tool {
+    position: absolute;
+    border: 1px dashed black;
+    outline: 0;
+    display: none;
+    font-family: "Lucida Grande", sans-serif;
+    font-size: 14px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+#tools{
+    padding-top: 20px;
+    float: left;
+    width: 370px;
+    margin-left: 20px;
+}
+
+#colors{
+    float: left;
+    position: absolute;
+    margin-top: 310px;
+    width: 70px;
+    margin-left: 290px;
+}
+
+#manage{
+    float: left;
+    position: absolute;
+    width: 100px;
+    margin-top: 240px;
+    margin-left: 100px;
+}
+
+#tools *{
+    margin: 5px;
+}
+
+#functions{
+    float: left;
+    position: absolute;
+    width: 200px;
+    margin-top: 400px;
+    margin-left: 140px;
+}
+
+#functions *{
+    margin: 5px;
+}
+
+
+#copy{
+    margin-top: 40px;
+}
+
+#content{
+    text-align: center;
+}
+
+
+.black, .white, .blue, .green, .yellow, .red {
+
+    width: 20px;
+    height: 20px;
+}
+
+.black {
+    background-color: #000000;
+}
+
+.white {
+    background-color: #FFFFFF;
+}
+
+.blue {
+    background-color: #0000FF;
+}
+
+.green {
+    background-color: #008000;
+}
+
+.yellow {
+    background-color: #FFFF00;
+}
+
+.red {
+    background-color: #FF0000;
+}
+
+.purple {
+    background-color: #800080;
+}
